@@ -1,5 +1,3 @@
-import time
-
 print("Hi, there. Welcome to our Futuristic ID Card Generator. " 
 "Before we begin generating ID Card for you, \nWe would like to know"
 " some information about you for the ID Card.\n")
@@ -12,8 +10,6 @@ ID_number = input("Could you, please, tell us your ID Number?\n>>")
 official_rank = input("Lastly, we would like to know about your Official Rank:\n>>")
 
 print("We're preparing your ID Card, please, wait...\n\n")
-time.sleep(3) # I just wanted the user to think that the program is actually generating something
-#MS Copilot helped me with "import time" and "time.sleep()" functions
 
 print("========================================")
 print("    GALACTIC FEDERATION ID CARD    ")
@@ -26,5 +22,5 @@ print(f"Rank:           [{official_rank}]\n")
 
 print("----------------------------------------")
 print(f"ID Code: GF-[{ID_number}]-[{planet}]")
-print(f"========================================")
+print("========================================")
 
