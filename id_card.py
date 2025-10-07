@@ -15,12 +15,12 @@ print("========================================")
 print("    GALACTIC FEDERATION ID CARD    ")
 print("========================================\n")
 
-print(f"Full Name:      [{name}]")
-print(f"Home Planet:    [{planet}]")
-print(f"Species:        [{species}]")
-print(f"Rank:           [{official_rank}]\n")
+print(f"Full Name:      {name}")
+print(f"Home Planet:    {planet}")
+print(f"Species:        {species}")
+print(f"Rank:           {official_rank}\n")
 
 print("----------------------------------------")
-print(f"ID Code: GF-[{ID_number}]-[{planet}]")
+print(f"ID Code: GF-{ID_number}-{planet}")
 print("========================================")
 
